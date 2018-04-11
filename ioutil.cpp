@@ -14,7 +14,7 @@
 #include <string>     // string
 #include <iostream>   // cout, endl
 #include <cstdio>     // printf()
-#include <stdexcept>  //out_of_range
+#include <stdexcept>  // out_of_range
 
 using std::cout;
 using std::endl;
@@ -25,7 +25,7 @@ using std::out_of_range;
 *    Function: Menu::Menu                                                      *
 *                                                                              *
 * Description: Default constructor. Sets data members to unitialized values so *
-*              testing and debugging are simpler.                              *
+*              testing and debugging is simpler.                               *
 *                                                                              *
 *      Inputs: void                                                            *
 *                                                                              *
@@ -78,7 +78,7 @@ void Menu::print() const
 {
    cout << title << endl;
 
-   for (unsigned int i = 0; i < items.size(); ++i)
+   for (unsigned i = 0; i < items.size(); ++i)
       cout << i + 1 << ". " << items.at(i) << endl;
 }
 
@@ -279,7 +279,7 @@ bool ValidatedInput::isIntegerBetween(int low, int high) const
 
 
 /*******************************************************************************
-*    Function: input::isInteger                                                *
+*    Function: input::isFloat                                                  *
 *                                                                              *
 * Description: Determines if userInput can represent a floating point number.  *
 *                                                                              *
