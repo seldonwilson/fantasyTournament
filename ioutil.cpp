@@ -4,7 +4,7 @@
 * E-Mail:   wilsond3@oregonstate.edu                                           *
 * Date:     5 May 2017                                                         *
 *                                                                              *
-* Description: Provides the implementation fof classes and methods that aid in *
+* Description: Provides the implementation of classes and methods that aid in  *
 *    the collection of user input from a keyboard and displaying output to a   *
 *    command line interface.                                                   *
 *                                                                              *
